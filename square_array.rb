@@ -6,8 +6,8 @@ def square_array(array)
   array.each do |item|
     new_array[index] = item ** 2
     index++
-    puts "updated index #{index}"
   end
+  puts "updated index #{index}"
 end
 test_array = [1,2,3]
 square_array(test_array)
