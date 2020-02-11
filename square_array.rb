@@ -7,6 +7,3 @@ def square_array(array)
     index = index + 1
   end
 end
-
-test_array = [1,2,3]
-square_array(test_array)
