@@ -4,7 +4,6 @@ def square_array(array)
     index = 0
     new_array = []
     new_array[index] = item ** 2
-    index++
-    puts "#{index}"
+    index = index + 1
   end
 end
