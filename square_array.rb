@@ -1,7 +1,9 @@
 def square_array(array)
-  index=0
   array.each do |item|
-    item ** 2
-  end
-  
+    puts "#{item ** 2}"
+    index = 0
+    new_array = []
+    new_array[index] = item ** 2
+    index++
+  end  
 end
