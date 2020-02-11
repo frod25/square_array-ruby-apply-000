@@ -5,6 +5,7 @@ def square_array(array)
     new_array[index] = item ** 2
     index = index + 1
   end
+  new_array
 end
 test_array = [1,2,3]
 square_array(test_array)
